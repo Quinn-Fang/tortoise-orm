@@ -14,6 +14,7 @@ Changelog
 - Fix in generating comments for Foreign Keys in ``MySQL``
 - Added schema support for PostgreSQL. Either set  ``"schema": "custom"`` var in ``credentials`` or as a query parameter ``?schema=custom``
 - Default MySQL charset to ``utf8mb4``. If a charset is provided it will also force the TABLE charset to the same.
+- Ensure that default PK is added to the top of the attrs.
 
 0.13.0
 ------
